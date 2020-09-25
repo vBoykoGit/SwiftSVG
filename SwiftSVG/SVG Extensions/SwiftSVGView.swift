@@ -49,7 +49,7 @@
 /**
  A `UIView` subclass that can be used in Interface Builder where you can set the @IBInspectable propert `SVGName` in the side panel. Use the UIView extensions if you want to creates SVG views programmatically.
  */
-open class SVGView : UIView {
+open class SwiftSVGView : UIView {
     
     /**
      The name of the SVG file in the main bundle

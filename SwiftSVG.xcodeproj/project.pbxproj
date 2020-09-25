@@ -66,13 +66,13 @@
 		38048F381F24210F00179C95 /* CALayer+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F321F24210F00179C95 /* CALayer+SVG.swift */; };
 		38048F391F24210F00179C95 /* CAShapeLayer+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F331F24210F00179C95 /* CAShapeLayer+SVG.swift */; };
 		38048F3A1F24210F00179C95 /* SVGLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F341F24210F00179C95 /* SVGLayer.swift */; };
-		38048F3B1F24210F00179C95 /* SVGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F351F24210F00179C95 /* SVGView.swift */; };
+		38048F3B1F24210F00179C95 /* SwiftSVGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F351F24210F00179C95 /* SwiftSVGView.swift */; };
 		38048F3C1F24210F00179C95 /* UIBezierPath+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F361F24210F00179C95 /* UIBezierPath+SVG.swift */; };
 		38048F3D1F24210F00179C95 /* UIView+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F371F24210F00179C95 /* UIView+SVG.swift */; };
 		38048F3E1F24214400179C95 /* CALayer+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F321F24210F00179C95 /* CALayer+SVG.swift */; };
 		38048F3F1F24214400179C95 /* CAShapeLayer+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F331F24210F00179C95 /* CAShapeLayer+SVG.swift */; };
 		38048F401F24214400179C95 /* SVGLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F341F24210F00179C95 /* SVGLayer.swift */; };
-		38048F411F24214400179C95 /* SVGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F351F24210F00179C95 /* SVGView.swift */; };
+		38048F411F24214400179C95 /* SwiftSVGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F351F24210F00179C95 /* SwiftSVGView.swift */; };
 		38048F421F24214400179C95 /* UIBezierPath+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F361F24210F00179C95 /* UIBezierPath+SVG.swift */; };
 		38048F431F24214400179C95 /* UIView+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F371F24210F00179C95 /* UIView+SVG.swift */; };
 		38048F471F24520200179C95 /* CALayer+Sublayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38048F461F24520200179C95 /* CALayer+Sublayers.swift */; };
@@ -190,7 +190,7 @@
 		38048F321F24210F00179C95 /* CALayer+SVG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CALayer+SVG.swift"; path = "SwiftSVG/SVG Extensions/CALayer+SVG.swift"; sourceTree = SOURCE_ROOT; };
 		38048F331F24210F00179C95 /* CAShapeLayer+SVG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CAShapeLayer+SVG.swift"; path = "SwiftSVG/SVG Extensions/CAShapeLayer+SVG.swift"; sourceTree = SOURCE_ROOT; };
 		38048F341F24210F00179C95 /* SVGLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SVGLayer.swift; path = "SwiftSVG/SVG Extensions/SVGLayer.swift"; sourceTree = SOURCE_ROOT; };
-		38048F351F24210F00179C95 /* SVGView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SVGView.swift; path = "SwiftSVG/SVG Extensions/SVGView.swift"; sourceTree = SOURCE_ROOT; };
+		38048F351F24210F00179C95 /* SwiftSVGView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftSVGView.swift; path = "SwiftSVG/SVG Extensions/SwiftSVGView.swift"; sourceTree = SOURCE_ROOT; };
 		38048F361F24210F00179C95 /* UIBezierPath+SVG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIBezierPath+SVG.swift"; path = "SwiftSVG/SVG Extensions/UIBezierPath+SVG.swift"; sourceTree = SOURCE_ROOT; };
 		38048F371F24210F00179C95 /* UIView+SVG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+SVG.swift"; path = "SwiftSVG/SVG Extensions/UIView+SVG.swift"; sourceTree = SOURCE_ROOT; };
 		38048F461F24520200179C95 /* CALayer+Sublayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Sublayers.swift"; sourceTree = "<group>"; };
@@ -381,7 +381,7 @@
 				38048F321F24210F00179C95 /* CALayer+SVG.swift */,
 				38048F331F24210F00179C95 /* CAShapeLayer+SVG.swift */,
 				38048F341F24210F00179C95 /* SVGLayer.swift */,
-				38048F351F24210F00179C95 /* SVGView.swift */,
+				38048F351F24210F00179C95 /* SwiftSVGView.swift */,
 				38048F361F24210F00179C95 /* UIBezierPath+SVG.swift */,
 				38048F371F24210F00179C95 /* UIView+SVG.swift */,
 			);
@@ -649,7 +649,7 @@
 				176BC9EF1EE5A1CD00F7B54C /* SVGGroup.swift in Sources */,
 				381E99AF1EF8A55000839918 /* MoveToTests.swift in Sources */,
 				176BC9AA1EE486BC00F7B54C /* SVGRootElement.swift in Sources */,
-				38048F411F24214400179C95 /* SVGView.swift in Sources */,
+				38048F411F24214400179C95 /* SwiftSVGView.swift in Sources */,
 				38048F221F23DD6100179C95 /* SVGLineTests.swift in Sources */,
 				D9870F27216628A900B47813 /* CGPathPoints.swift in Sources */,
 				381E99BF1EF9D21500839918 /* VerticalLineToTests.swift in Sources */,
@@ -759,7 +759,7 @@
 				176BC9B31EE4946B00F7B54C /* SVGShapeElement.swift in Sources */,
 				66F9844B20EF511F00A2CBEF /* Unown.swift in Sources */,
 				E8AFE31C22EBD6F600BD1672 /* Print.swift in Sources */,
-				38048F3B1F24210F00179C95 /* SVGView.swift in Sources */,
+				38048F3B1F24210F00179C95 /* SwiftSVGView.swift in Sources */,
 				176BC9ED1EE5A1CD00F7B54C /* SVGGroup.swift in Sources */,
 				175093C61E6C720C00EF1853 /* SVGPath.swift in Sources */,
 				174FF06D1EF10691003F3DBE /* PathDLexer.swift in Sources */,
